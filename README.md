@@ -6,7 +6,7 @@ A short look at how extreme daily rainfall varies across the UK over the last th
 
 ## The question
 
-I wanted to see *where* rainfall actually gets extreme — not just where it rains a lot on average — and *when* in the year those days happen. Some places have a high baseline of drizzle, others get most of their rain in sharp bursts, and that distinction gets lost if you only look at annual totals.
+I wanted to see *where* rainfall actually gets extreme, not just where it rains a lot on average, and *when* in the year those days happen. Some places have a high baseline of drizzle, others get most of their rain in sharp bursts, and that distinction gets lost if you only look at annual totals.
 
 Defining "extreme" with one fixed millimetre value would also flatten the picture: 20 mm in a day is unusual in Norwich and pretty routine in Inverness. So I set the threshold separately for each city.
 
@@ -35,23 +35,6 @@ python rainfall_extremes.py
 ```
 
 First run takes ~30 seconds (one API call per city). After that, everything reads from `data/` and finishes in a few seconds. Figures land in `figures/` and the per-city summary in `outputs/summary.csv`.
-
-If `cartopy` gives trouble on your system, `conda install -c conda-forge cartopy` is the most reliable fallback.
-
-## Repo layout
-
-```
-rainfall-extremes-uk/
-├── rainfall_extremes.py     # the whole pipeline, top-to-bottom
-├── requirements.txt
-├── README.md
-├── LICENSE
-├── .gitignore
-├── data/                    # cached city CSVs (gitignored)
-│   └── README.md
-├── figures/                 # generated PNGs
-└── outputs/                 # summary.csv
-```
 
 ## What the figures show
 

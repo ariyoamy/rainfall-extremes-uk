@@ -2,7 +2,10 @@
 
 A short look at how extreme daily rainfall varies across the UK over the last three decades.
 
-![Map of UK cities coloured by mean annual extreme rainfall days](figures/01_uk_map.png)
+<p align="center">
+  <img src="figures/01_uk_map.png" width="400"><br>
+  <em>Figure 1 — Mean annual extreme rainfall days by city.</em>
+</p>
 
 ## The question
 

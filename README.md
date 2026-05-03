@@ -2,7 +2,7 @@
 
 A short look at how extreme daily rainfall varies across the UK over the last three decades.
 
-![UK extreme rainfall map](figures/01_uk_map.png)
+![Map of UK cities coloured by mean annual extreme rainfall days](figures/01_uk_map.png)
 
 ## The question
 
@@ -38,13 +38,25 @@ First run takes ~30 seconds (one API call per city). After that, everything read
 
 ## What the figures show
 
-**`01_uk_map.png` — where extremes happen.** Each city is coloured by its mean annual count of extreme days. The wet, mountain-shadowed west (Glasgow, Cardiff, Plymouth, Inverness) stands out clearly against the drier east.
+**Figure 1 — Where extremes happen.**  
+Each city is coloured by its mean annual count of extreme days. The wet, mountain-shadowed west stands out against the drier east.
 
-**`02_extreme_days_heatmap.png` — city × year.** A bird's-eye view of the whole record. Rows are cities (sorted wettest to driest), columns are years, colour is the count of extreme days that year. Useful for spotting standout years (e.g. 2012 was wet across most of the country).
+<img src="figures/01_uk_map.png" width="500">
 
-**`03_monthly_seasonality.png` — when extremes happen.** Mean number of extreme days per month, averaged across the record. The U-shape is unsurprising — UK extremes cluster heavily in autumn and winter — but the depth of the summer minimum varies between cities.
+**Figure 2 — City × year heatmap.**  
+Rows are cities, columns are years, and colour shows the number of extreme days that year. This makes standout years easy to spot.
 
-**`04_trends.png` — change over time.** A linear fit to each city's annual count, with the slope shown in the legend (extra extreme days per year). This is meant as a visual cue, not a formal statistical test — there's noticeable year-to-year noise and the linear assumption is a simplification.
+<img src="figures/02_extreme_days_heatmap.png" width="750">
+
+**Figure 3 — Monthly seasonality.**  
+Extreme rainfall days cluster most strongly in autumn and winter, with a clear summer minimum in many cities.
+
+<img src="figures/03_monthly_seasonality.png" width="750">
+
+**Figure 4 — Trend over time.**  
+Linear fits show descriptive changes in annual extreme-day counts. These are visual summaries, not formal significance tests.
+
+<img src="figures/04_trends.png" width="750">
 
 ## Limitations
 

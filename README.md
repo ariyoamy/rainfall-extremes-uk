@@ -74,3 +74,7 @@ Linear fits show descriptive changes in annual extreme-day counts. These are vis
 - Look at multi-day extremes (3-day or 5-day totals) — these often matter more for flooding than single days.
 - Bring in the North Atlantic Oscillation index and check whether extreme-day counts track with it.
 - Switch from a fixed 95th-percentile threshold to a return-period framing (e.g. the 1-in-10-year wettest day).
+
+## Contact
+Any feedback is welcome and encouraged!
+- **Find me on:** [LinkedIn](https://www.linkedin.com/in/amy-ariyo-5882ab219)
